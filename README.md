@@ -1,12 +1,70 @@
-# React + Vite
+# Legends Society – Modern React Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive website built with React, Vite, and Tailwind CSS. Features include smooth navigation, animated UI components, and a clean design system.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- React 19 + Vite for fast development and HMR
+- Tailwind CSS for utility-first styling
+- Scroll lock for mobile navigation
+- Responsive header and navigation menu
+- Custom SVG assets and gradients
+- Modular component structure
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### Install dependencies
+
+```sh
+npm install
+```
+
+### Run in development mode
+
+```sh
+npm run dev
+```
+
+### Build for production
+
+```sh
+npm run build
+```
+
+### Preview production build
+
+```sh
+npm run preview
+```
+
+### Lint the code
+
+```sh
+npm run lint
+```
+
+## Project Structure
+
+```
+src/
+  assets/        # Images and SVGs
+  components/    # React components
+  constants/     # Static data and config
+  index.css      # Global styles
+  main.jsx       # App entry point
+public/
+  vite.svg       # Public assets
+index.html       # HTML template
+```
+
+## Customization
+
+- Update navigation links in [`src/constants/index.js`](src/constants/index.js)
+- Add or modify assets in [`src/assets`](src/assets)
+- Edit styles in [`src/index.css`](src/index.css) and [`tailwind.config.js`](tailwind.config.js)
+
+## Credits
+
+- Inspired by the [React + Vite](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react) template
+- Icons by [Heroicons](https://heroicons.com/)
+- Fonts from [Google Fonts](https://fonts.google.com/)
